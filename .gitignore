@@ -1,5 +1,6 @@
 # Linux files
 *~
+*.sh
 
 # Compiled Object files
 *.slo
