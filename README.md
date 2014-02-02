@@ -26,12 +26,8 @@ For the pintools use:
 
 To execute any pintool use:
 
-  %PACKAGE% var is instrumented APK package (i.e. com.android.mms)
-  
-  %TOOL% var is the pintool name
-  
-  The output can be also set to /sdcard/
-  
-  OUTPUT="/data/data/%PACKAGE%/%TOOL%.out"
+  - %PACKAGE% var is instrumented APK package (i.e. com.android.mms)
+  - %TOOL% var is the pintool name
+  - The output can be also set to /sdcard/
   
   adb shell su - /data/pin/pin -pid %PID% -logfile /data/data/%PACKAGE%/log.out -t /data/pin/obj-ia32/%TOOL%.so -o /data/data/%PACKAGE%/%TOO%L.out -logfile /data/data/%PACKAGE%/%TOOL%.log
