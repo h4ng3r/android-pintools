@@ -20,7 +20,7 @@ git clone https://github.com/h4ng3r/android-pintools.git
 To compile the decode.cpp use standard g++ decode.cpp -o decode.
 For the pintools use: 
 
-  make  HOST_ARCH=ia32 TARGET_OS=android CC=%TOOL_CHAIN_PATH%/bin/gcc CXX=/%TOOL_CHAIN_PATH%/bin/g++ obj-ia32/%PINTOOL%.so
+  make  HOST_ARCH=ia32 TARGET_OS=android CC=%TOOL_CHAIN_PATH%/bin/gcc CXX=/%TOOL_CHAIN_PATH%/bin/g++ obj-ia32/%TOOL%.so
   
 # Execute
 
@@ -32,6 +32,6 @@ To execute any pintool use:
   
   The output can be also set to /sdcard/
   
-  OUTPUT="/data/data/%PACKAGE%/%TOO%L.out"
+  OUTPUT="/data/data/%PACKAGE%/%TOOL%.out"
   
   adb shell su - /data/pin/pin -pid %PID% -logfile /data/data/%PACKAGE%/log.out -t /data/pin/obj-ia32/%TOOL%.so -o /data/data/%PACKAGE%/%TOO%L.out -logfile /data/data/%PACKAGE%/%TOOL%.log
