@@ -1,9 +1,6 @@
 #include <iostream>
-#include <iomanip>
 #include <fstream>
 #include <string>
-#include <cstring>
-#include <map>
 #include "pin.H"
 
 #include <sys/syscall.h>
