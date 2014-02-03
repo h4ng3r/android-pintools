@@ -6,6 +6,13 @@ This are my own pintools made for a college project.
 All of them are shared here with a GPL 2 licence, that means that they can be changed or used in any manner you want. But if you know how to improve any of them, please notify me.
 
 
+## Pintools
+
+### Proccount
+### Proctrace
+### Syscallcount
+### Syscalltrace
+
 ## Installation
 
 1. Download the pintools inside %PIN-DIR%/source/tools
