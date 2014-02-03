@@ -53,3 +53,11 @@ To execute any pintool use:
   adb shell su - /data/pin/pin -pid $PID -logfile /data/data/$PACKAGE/log.out -t /data/pin/obj-ia32/$TOOL.so -o /data/data/$PACKAGE/$TOOL.out -logfile /data/data/$PACKAGE/$TOOL.log
   adb pull /data/data/$PACKAGE/$TOOL.out # collect data
 ```
+
+## TODO
+
+1. Binary output for all pintools (only integers)
+2. Binary output for strings
+3. Decode.cpp for all new formats
+4. Push the tester APK and some script
+
