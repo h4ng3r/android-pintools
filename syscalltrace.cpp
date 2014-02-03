@@ -1,11 +1,7 @@
 #include <iostream>
-#include <iomanip>
 #include <fstream>
 #include <string>
-#include <cstring>
-#include <map>
 #include "pin.H"
-
 #include <sys/syscall.h>
 
 #define RESOLVE_NAME_AND_PARAMS  1
