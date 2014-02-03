@@ -7,7 +7,7 @@ using namespace std;
 
 std::ofstream TraceFile;
 
-KNOB<string> KnobOutputFile(KNOB_MODE_WRITEONCE, "pintool", "o", "proctrace2.out", "specify file name for proctrace2 profile ");
+KNOB<string> KnobOutputFile(KNOB_MODE_WRITEONCE, "pintool", "o", "proctrace.out", "specify file name for proctrace profile ");
 
 int ident = 0;
 char* BUFFER = new char[400];
