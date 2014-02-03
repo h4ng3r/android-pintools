@@ -22,7 +22,7 @@ This pintool uses PIN_AddSyscallEntryFunction to count all syscall calls. The nu
 
 ### Syscalltrace
 
-This pintool uses PIN_AddSyscallEntryFunction and PIN_AddSyscallExitFunction. For each syscall entry it prints the [pid-threat] instruction : syscallnum ( arg0, arg1, arg2, arg3, arg4, arg5). For each syscall exit it prints [pid-threat]=result. If the RESOLVE_NAME_AND_PARAMS is set to 1 in the compilation time the entry output is changed, the syscallnum become syscallname and only print the necessary params.
+This pintool uses PIN_AddSyscallEntryFunction and PIN_AddSyscallExitFunction. For each syscall entry it prints the [pid-thread] instruction : syscallnum ( arg0, arg1, arg2, arg3, arg4, arg5). For each syscall exit it prints [pid-thread]=result. If the RESOLVE_NAME_AND_PARAMS is set to 1 in the compilation time the entry output is changed, the syscallnum become syscallname and only print the necessary params.
 
 ## Installation
 
