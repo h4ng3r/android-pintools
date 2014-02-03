@@ -4,7 +4,7 @@
 #include "pin.H"
 #include <sys/syscall.h>
 
-#define RESOLVE_NAME_AND_PARAMS  1
+#define RESOLVE_NAME_AND_PARAMS  0
 
 using namespace std;
 
